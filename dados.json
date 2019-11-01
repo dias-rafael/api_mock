@@ -1,0 +1,15 @@
+{
+    "info":[
+        {
+            "id":1,
+            "idCategory":1,
+            "category":"Consulta Médica por Vídeo",
+            "idDoctor":1234,
+            "doctor":"Dr. Marcelo Abbud",
+            "idPatient":4321,
+            "patient":"Carlos Eduardo Sampaio",
+            "date":"2018-05-21 11:37:50",
+            "status":"A"
+        }
+    ]
+}
