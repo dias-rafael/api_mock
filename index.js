@@ -32,8 +32,9 @@ app.get('/api', function(req, res){
     
         obj.info.forEach(function(info) {
           if (info != null) {
+            result = '';
             if (info.info_id == req.query.info_id) {
-              result = info;
+              result = result + info;
             }
           }
         });
