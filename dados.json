@@ -8,7 +8,18 @@
             "doctor":"Dr. Marcelo Abbud",
             "idPatient":4321,
             "patient":"Carlos Eduardo Sampaio",
-            "date":"2018-05-21 11:37:50",
+            "date":"2018-05-21 13:30:00",
+            "status":"A"
+        },
+        {
+            "id":2,
+            "idCategory":2,
+            "category":"Consulta Médica por Áudio",
+            "idDoctor":1235,
+            "doctor":"Dr. Carlos Vilela",
+            "idPatient":4321,
+            "patient":"Carlos Eduardo Sampaio",
+            "date":"2018-05-21 13:30:00",
             "status":"A"
         }
     ]
