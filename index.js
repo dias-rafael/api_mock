@@ -27,7 +27,7 @@ app.get('/api', function(req, res){
         var response = {status: 'falha', resultado: err};
         res.json(response);
       } else {
-        res.send(JSON.stringify(data));
+        res.send(JSON.parse(data));
         /*
         var obj = JSON.parse(data);
         var result = 'Nenhuma informação foi encontrada';
