@@ -40,7 +40,7 @@ app.get('/api', function(req, res){
     
         //var response = {status: 'sucesso', resultado: result};
         //res.json(response);
-        res.json(result);
+        res.json([result]);
       }
     });
    });
