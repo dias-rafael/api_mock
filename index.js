@@ -39,8 +39,8 @@ app.get('/api', function(req, res){
         });
     
         //var response = {status: 'sucesso', resultado: result};
-        var response = {result};
-        res.json(response);
+        //res.json(response);
+        res.json(result);
       }
     });
    });
