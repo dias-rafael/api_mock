@@ -27,6 +27,8 @@ app.get('/api', function(req, res){
         var response = {status: 'falha', resultado: err};
         res.json(response);
       } else {
+        res.send(JSON.stringify(data));
+        /*
         var obj = JSON.parse(data);
         var result = 'Nenhuma informação foi encontrada';
     
@@ -34,7 +36,7 @@ app.get('/api', function(req, res){
           if (info != null) {
             result = '';
             if (info.info_id == req.query.info_id) {
-              result = result + info;
+              result = info;
             }
           }
         });
@@ -42,6 +44,7 @@ app.get('/api', function(req, res){
         //var response = {status: 'sucesso', resultado: result};
         //res.json(response);
         res.json([result]);
+        */
       }
     });
    });
