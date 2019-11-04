@@ -8,7 +8,7 @@
             "doctor":"Dr. Marcelo Abbud",
             "idPatient":4321,
             "patient":"Carlos Eduardo Sampaio",
-            "date":"2018-05-21 13:30:00",
+            "date":"2018-05-20 13:30:00",
             "status":"A"
         },
         {
@@ -19,8 +19,19 @@
             "doctor":"Dr. Carlos Vilela",
             "idPatient":4321,
             "patient":"Carlos Eduardo Sampaio",
-            "date":"2018-05-21 13:30:00",
+            "date":"2018-05-20 13:30:00",
             "status":"A"
+        },
+        {
+            "id":3,
+            "idCategory":1,
+            "category":"Consulta Médica por Vídeo",
+            "idDoctor":1234,
+            "doctor":"Dr. Marcelo Abbud",
+            "idPatient":4321,
+            "patient":"Carlos Eduardo Sampaio",
+            "date":"2018-05-20 13:30:00",
+            "status":"C"
         }
     ]
 }
