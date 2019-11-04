@@ -8,18 +8,7 @@
             "doctor":"Dr. Marcelo Abbud",
             "idPatient":4321,
             "patient":"Carlos Eduardo Sampaio",
-            "date":"2018-05-20 13:30:00",
-            "status":"A"
-        },
-        {
-            "id":2,
-            "idCategory":2,
-            "category":"Consulta Médica por Áudio",
-            "idDoctor":1235,
-            "doctor":"Dr. Carlos Vilela",
-            "idPatient":4321,
-            "patient":"Carlos Eduardo Sampaio",
-            "date":"2018-05-20 13:30:00",
+            "date":"20/05/2018 13:30",
             "status":"A"
         },
         {
@@ -30,8 +19,19 @@
             "doctor":"Dr. Marcelo Abbud",
             "idPatient":4321,
             "patient":"Carlos Eduardo Sampaio",
-            "date":"2018-05-20 13:30:00",
+            "date":"20/05/2018 13:30",
             "status":"C"
+        },
+        {
+            "id":2,
+            "idCategory":2,
+            "category":"Consulta Médica por Áudio",
+            "idDoctor":1235,
+            "doctor":"Dr. Carlos Vilela",
+            "idPatient":4321,
+            "patient":"Carlos Eduardo Sampaio",
+            "date":"20/05/2018 13:30",
+            "status":"A"
         }
     ]
 }
