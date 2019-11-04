@@ -20,7 +20,7 @@ var server = app.listen(process.env.PORT || 1025, function () {
     var port = server.address().port;
     console.log("App now running on port", port);
 });
-
+ 
 app.get('/api', function(req, res){
     fs.readFile('dados.json', 'utf8', function(err, data){
       if (err) {
